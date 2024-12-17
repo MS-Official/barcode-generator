@@ -5,7 +5,6 @@ from PyQt5.QtCore import Qt
 import barcode
 from barcode.writer import ImageWriter
 import io
-
 class BarcodeGenerator(QMainWindow):
     def __init__(self):
         super().__init__()
@@ -127,3 +126,4 @@ if __name__ == "__main__":
     window = BarcodeGenerator()
     window.show()
     sys.exit(app.exec_())
+    
